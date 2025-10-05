@@ -17,3 +17,22 @@ print(type(arr))
 
 arr2 = array("B")
 
+# here to define an array of a particular type we need to use type-code, just like in the above case we used 'i' for integer type array. 
+# Some commonly used type codes are:
+# 'i' - signed integer
+# 'I' - unsigned integer
+# 'f' - floating point
+# 'd' - double floating point
+# 'u' - Unicode character
+# 'b' - signed char (0 to 255)
+# 'B' - unsigned char
+# 'h' - signed short   
+# 'H' - unsigned short
+# 'l' - signed long
+# 'L' - unsigned long
+# 'q' - signed long long
+# 'Q' - unsigned long long
+# 'I' - unsigned integer
+# 'c' - char (string of length 1)
+# 'P' - pointer (used for storing memory addresses)
+# '?' - boolean (True or False)
