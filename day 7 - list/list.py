@@ -1,4 +1,4 @@
-kushu = ["Kushu", "Shukla", 100, 500, 0, 93234.3, True]
+kushu = ["Kushu", "Shukla", 100, 500, 0, 93234.3, True, 'ayush']
 
 print(kushu)
 

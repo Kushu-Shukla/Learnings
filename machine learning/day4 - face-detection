@@ -1,0 +1,28 @@
+import cv2
+
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+
+img = cv2.imread(r"C:\Users\kushu\OneDrive\Desktop\Hathi\Learnings\machine learning\image.jpg")
+
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+faces = face_cascade.detectMultiScale(
+    gray,
+    scaleFactor=1.1,
+    minNeighbors=4,
+    minSize=(30,30)
+)
+
+print(f"Face Detection", img)
+cv2.waitKey()
+cv2.destroyAllWindows()
+
+
+# call aaa rhi hai
+
+# u listening me?
+# \
+# or on call?
+# rukooo mummy
+# mai mummy nhi 
+# i can be da...... heheh
